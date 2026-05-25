@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.next/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.local
+.env*.local
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
+.nyc_output/
