@@ -19,11 +19,16 @@ export interface Task {
 }
 
 export interface AgentEvent {
-  id: string
-  taskId: string
-  eventType: string
-  payload: Record<string, unknown>
-  timestamp: string
+  id?: string
+  taskId?: string
+  type: string
+  eventType?: string
+  payload?: Record<string, unknown>
+  createdAt?: string
+  timestamp?: string
+  message?: string
+  provider?: string
+  [key: string]: unknown
 }
 
 export interface Project {

@@ -4,7 +4,7 @@
 
 OpenTask 是一个轻量级的任务管理系统，专为 AI Agent 协作而设计。你在界面上创建任务、点击启动，Agent 就会自动接管并开始执行 —— 完成后回来等你审批，你说行它才算完。
 
-![dashboard](https://placehold.co/1200x600/0f172a/94a3b8?text=Dashboard+—+Task+Overview)
+![dashboard](docs/screenshots/dashboard.png)
 
 ---
 
@@ -22,23 +22,27 @@ OpenTask 的对象是 Agent。你描述任务，Agent 去做，做完找你确�
 
 ## 界面预览
 
+### Dashboard — 一览全局
+
+![dashboard](docs/screenshots/dashboard.png)
+
+### Projects — 项目列表
+
+![projects](docs/screenshots/projects.png)
+
 ### 任务看板
 
-按状态追踪所有任务，实时更新。
+![taskboard](docs/screenshots/taskboard.png)
 
-![task board](https://placehold.co/1200x600/0f172a/94a3b8?text=Task+Board+—+Kanban+View)
+### Agent 执行日志 — 实时追踪每一步
 
-### Agent 执行日志
+![agent logs](docs/screenshots/agent-logs.png)
 
-点开任务，查看 Agent 每一步在做什么。
-
-![agent logs](https://placehold.co/1200x600/0f172a/94a3b8?text=Task+Detail+—+Agent+Live+Logs)
-
-### 审批队列
+### Approvals — 你的最终决定
 
 Agent 完成后，任务进入审批队列。你决定是否通过。
 
-![approvals](https://placehold.co/1200x600/0f172a/94a3b8?text=Approvals+Queue)
+![approvals](docs/screenshots/approvals.png)
 
 ---
 
